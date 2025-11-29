@@ -5,7 +5,7 @@
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-2C3E50?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-> **"Strum your ukulele, sip your coffee, and let UkuBuddy detect your chords in style."**
+> **"Strum your ukulele, sip your coffee, and let UkCozy detect your chords in style."**
 
 **UkuBuddy** is a desktop application built with Python that detects Ukulele chords in real-time. Unlike traditional tuners or chord detectors that look technical and rigid, UkuBuddy features a **"Coffee Shop Aesthetic"** UI—designed to make your jamming session feel warm, organic, and cozy.
 
@@ -13,7 +13,7 @@
 
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/600x400?text=Place+Your+Screenshot+Here)
+![App Screenshot](https://github.com/yeszi/ukulele-detect-chord/blob/portofolio-grayesi-backend/UI%20UkCozy.png)
 
 ---
 
@@ -47,5 +47,20 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/ukubuddy.git](https://github.com/yourusername/ukubuddy.git)
-cd ukubuddy
+> git clone [https://github.com/yeszi/ukulele-detect-chord.git](https://github.com/yeszi/ukulele-detect-chord.git)
+> cd ukulele-detect-chord
+
+//select one
+
+// for windows
+> pip install pipwin
+> pipwin install pyaudio
+> pip install numpy librosa
+
+//for mac atau linux
+> pip install -r requirements.txt
+ Or manually:
+> pip install pyaudio numpy librosa
+
+//run app
+> python main.py
